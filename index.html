@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title>Chica & Teckel</title>
+<title>Tefania & Nala</title>
 <style>
   html, body { margin: 0; height: 100%; background: #1b1a2e; overflow: hidden; touch-action: none; }
   #game { width: 100%; height: 100%; }
@@ -433,7 +433,7 @@ class Runner extends Phaser.Scene {
     this.hint = this.add.text(W / 2, 70, useTouch(this) ? 'Toca el botón para saltar' : 'Salta con ESPACIO o ↑', {
       ...ui, fontSize: '16px', color: '#ffe9a8' }).setOrigin(0.5).setScrollFactor(0).setDepth(20);
     this.gapBar = this.add.graphics().setScrollFactor(0).setDepth(20);
-    this.add.text(W / 2, 12, 'Perro', { ...ui, fontSize: '14px' }).setOrigin(0.5, 0)
+    this.add.text(W / 2, 12, 'Nala', { ...ui, fontSize: '14px' }).setOrigin(0.5, 0)
       .setScrollFactor(0).setDepth(21);
     menuButton(this);
     this.panel = new EndPanel(this, () => this.reset());
